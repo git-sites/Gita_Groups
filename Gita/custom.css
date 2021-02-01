@@ -1,0 +1,26 @@
+.fly{
+  background: transparent;
+  position: fixed;
+  
+}
+.big-c{
+  top: 10px;
+  right: 70px;
+}
+.big-w{
+  top: 10px;
+  right: 30px;
+}
+@media (min-width: 992px){
+  .fly-button{
+    display: none
+  }
+}
+.whatsapp{
+  right: 40px;
+  bottom: 40px;
+}
+.call{
+  right: 50px;
+  bottom: 120px
+}

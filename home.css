@@ -1,0 +1,39 @@
+@media (min-width : 768px){
+
+    .text-image{
+        justify-content: space-evenly !important;
+    }
+
+    .text-image p{
+        width: 400px !important;
+    }
+
+    .gita{
+        border-radius: 10px;
+        margin: 2% 10%;
+        
+    }
+}
+
+.gita{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(222, 250, 61);
+    height: fit-content;
+    width: auto;
+   
+    
+}
+.gita h1{
+    text-align: center;
+    color: royalblue;
+}
+
+.text-image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}

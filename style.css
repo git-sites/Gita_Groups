@@ -1,0 +1,41 @@
+
+.d-flex a img{
+    width: 40px;
+    margin-right: 30px;
+}
+
+@media (min-width : 992px) {
+.absolute{
+    position: absolute !important;
+    background-color: rgba(0, 0, 0, 0.582) !important;
+}
+.whitee{
+    color: whitesmoke !important;
+}
+}
+
+
+.carousel-inner > .carousel-item > img {
+    width: auto;
+    height: 70vw;
+  }
+  .navbar{
+      width: 100%;
+      z-index: 100;
+  }
+
+.loader{
+    position: absolute;
+    background-color:white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: loadin 2.1s forwards;
+}
+
+@keyframes loadin{
+    0%{visibility: visible;}
+    100%{visibility: hidden;}
+}
